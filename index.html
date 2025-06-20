@@ -1,10 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>eyyad ezrafeel</title>
-  <link rel="stylesheet" href="style.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: sans-serif;
+      background-color: #b9ecf3;
+      padding: 20px;
+    }
+
+    header,
+    footer {
+      background-color: #00b8b8;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 1.5rem;
+    }
+
+    .content {
+      display: flex;
+      margin: 20px 0;
+      gap: 20px;
+    }
+
+    aside {
+      background-color: #60d394;
+      flex: 1;
+      padding: 20px;
+      color: white;
+      font-size: 1.5rem;
+      text-align: center;
+    }
+
+    article {
+      background-color: #ffb347;
+      flex: 2;
+      padding: 20px;
+      color: white;
+      font-size: 1.5rem;
+    }
+
+    .images {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+    }
+
+    .image {
+      background-color: #ffd966;
+      flex: 1;
+      margin: 0 5px;
+      padding: 40px 0;
+      text-align: center;
+      color: white;
+      font-weight: bold;
+    }
+
+    .image:first-child {
+      margin-left: 0;
+    }
+
+    .image:last-child {
+      margin-right: 0;
+    }
+  </style>
 </head>
 <body>
 
@@ -12,7 +80,6 @@
 
   <main class="content">
     <aside>Aside</aside>
-
     <article>
       Article
       <div class="images">
